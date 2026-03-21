@@ -31,9 +31,11 @@ Isso significa que **qualquer versão distribuída deve ter o código-fonte comp
 
 - ## Requisitos 
 - python 3.10+
+
  **Opcional**
 - rich
 - colorama
 - pyfiglet
+ 
  **comando para instalar**
 - "pip install [nome do pacote opcional]
