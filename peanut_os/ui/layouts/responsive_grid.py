@@ -1,0 +1,1 @@
+"""Responsive grid layout placeholder."""

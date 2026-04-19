@@ -1,0 +1,1 @@
+"""Application permissions API placeholder."""

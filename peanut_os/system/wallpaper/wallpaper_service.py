@@ -1,0 +1,1 @@
+"""Wallpaper service placeholder."""
