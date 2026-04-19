@@ -1,0 +1,1 @@
+"""Quick toggles service placeholder."""

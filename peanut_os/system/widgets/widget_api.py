@@ -1,0 +1,1 @@
+"""Widget extensibility API placeholder."""

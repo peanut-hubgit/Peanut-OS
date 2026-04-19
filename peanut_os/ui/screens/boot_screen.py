@@ -1,0 +1,1 @@
+"""Boot screen placeholder."""

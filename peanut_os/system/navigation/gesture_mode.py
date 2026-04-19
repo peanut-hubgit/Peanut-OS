@@ -1,0 +1,1 @@
+"""Gesture navigation mode placeholder."""

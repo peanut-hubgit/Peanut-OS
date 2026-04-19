@@ -1,0 +1,1 @@
+"""App manifest schema placeholder."""

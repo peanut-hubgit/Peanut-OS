@@ -1,0 +1,1 @@
+"""Functional apps package."""
