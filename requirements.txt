@@ -1,0 +1,5 @@
+# PeanutOS Classic funciona apenas com a biblioteca padrão do Python.
+# Dependências visuais opcionais para versões futuras:
+# rich>=13.0
+# colorama>=0.4
+# pyfiglet>=1.0
