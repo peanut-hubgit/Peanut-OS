@@ -8,12 +8,27 @@ O **Peanut OS** é um projeto educacional de interface e ambiente de sistema des
 
 ### Peanut OS Compact
 
-Edição leve, simples e econômica, pensada para terminais, computadores modestos, testes rápidos e aprendizado.
+Edição de terminal do projeto: um **sistema operacional simulado em Python**, com sensação de `.bat`, tela de boot, bateria, hora, estado do sistema, menu textual e modo recovery.
 
-- Inicialização rápida
-- Baixo consumo de memória
+Exemplo de ideia:
+
+```text
+Peanut OS Compact
+
+Bateria: 30%
+Hora: 14:30
+Estado do sistema: desligado
+
+[1] Ligar
+[2] Entrar em modo recovery
+[3] Sair
+```
+
 - Interface baseada em terminal
-- Aplicativos essenciais
+- Boot textual
+- Estados do sistema: desligado, ligando, ligado, recovery e encerrando
+- Menu principal após ligar
+- Recovery simulado para diagnóstico e opções de segurança
 - Compatibilidade com Python 3.10 ou superior
 
 Diretório: [`editions/compact`](editions/compact)
@@ -99,7 +114,8 @@ pkg install python -y
 
 ## Roadmap inicial
 
-- [ ] Organizar o código antigo dentro da edição Compact
+- [ ] Criar a primeira base funcional do Peanut OS Compact
+- [ ] Implementar boot textual, estado do sistema e modo recovery
 - [ ] Criar a base compartilhada entre as edições
 - [ ] Definir o framework gráfico da edição Desktop
 - [ ] Criar protótipo touch-first
