@@ -4,9 +4,33 @@ O **Peanut OS Compact** é a edição de terminal do projeto: um **sistema opera
 
 Ele não tenta substituir Windows, Linux, Android ou macOS. A ideia é criar uma experiência própria, leve e educacional, como se o usuário estivesse ligando um mini sistema dentro do terminal.
 
+## Versão atual
+
+**v0.1.0 Concept**
+
+Arquivo principal:
+
+```text
+editions/compact/peanut_os_compact.py
+```
+
+## Como executar
+
+Na raiz do repositório:
+
+```bash
+python editions/compact/peanut_os_compact.py
+```
+
+No Windows:
+
+```powershell
+py editions/compact/peanut_os_compact.py
+```
+
 ## Conceito
 
-O Compact deve funcionar como uma interface de sistema por texto:
+O Compact funciona como uma interface de sistema por texto:
 
 ```text
 Peanut OS Compact
@@ -22,6 +46,17 @@ Estado do sistema: desligado
 
 Quando o usuário escolhe **Ligar**, o sistema muda de estado e abre o menu principal. Quando escolhe **Recovery**, entra em um ambiente separado de recuperação, diagnóstico e opções de segurança.
 
+## Incluído na v0.1.0 Concept
+
+- Tela inicial com bateria simulada, hora atual e estado do sistema
+- Boot textual básico
+- Menu inicial
+- Menu principal após ligar
+- Modo recovery
+- Diagnóstico básico
+- Reiniciar e desligar simulados
+- Nenhuma dependência externa obrigatória
+
 ## Objetivos
 
 - Simular boot, desligamento, reinicialização e estados do sistema
@@ -31,7 +66,7 @@ Quando o usuário escolhe **Ligar**, o sistema muda de estado e abre o menu prin
 - Rodar em computadores simples e também no Termux/Pydroid, quando possível
 - Manter o código simples para aprendizado e evolução
 
-## Estados planejados
+## Estados
 
 - `desligado`
 - `ligando`
@@ -39,19 +74,6 @@ Quando o usuário escolhe **Ligar**, o sistema muda de estado e abre o menu prin
 - `recovery`
 - `reiniciando`
 - `encerrando`
-
-## Escopo inicial
-
-- Tela inicial com bateria, hora e estado do sistema
-- Menu de boot
-- Opção de ligar o sistema
-- Modo recovery
-- Menu principal após ligar
-- Relógio e informações básicas
-- Configurações simples
-- Notas simples
-- Calculadora simples
-- Simulação de desligar e reiniciar
 
 ## Ideia de fluxo
 
@@ -81,13 +103,16 @@ No recovery:
 - Substituição real do sistema operacional do computador
 - Compatibilidade completa com aplicativos de Windows, Linux ou Android
 
-## Requisitos planejados
+## Requisitos
 
 - Python 3.10+
-- Dependências opcionais: `colorama`, `rich` e `pyfiglet`
 
-A primeira versão deve conseguir rodar apenas com Python puro. As dependências opcionais entram apenas para melhorar aparência.
+Dependências opcionais futuras: `colorama`, `rich` e `pyfiglet`. A versão atual roda apenas com Python puro.
+
+## Notas da versão
+
+Consulte [`docs/releases/compact-v0.1.0-concept.md`](../../docs/releases/compact-v0.1.0-concept.md).
 
 ## Estado
 
-Planejamento corrigido. O Compact será tratado como a edição **terminal/simulador de OS em Python**, não apenas como uma versão leve comum.
+Primeira prova de conceito lançada. O Compact será tratado como a edição **terminal/simulador de OS em Python**, não apenas como uma versão leve comum.
